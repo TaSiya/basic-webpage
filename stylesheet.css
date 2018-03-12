@@ -1,15 +1,61 @@
+html, body{
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
 
-header{
+a {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: underline;
+}
+.container{
+   background-color:#fff;
+}
+
+#heading{
+   background-color: #ddea;
+   margin-top: 1em;
+   text-align:center;
+   font-family: 'Indie Flower', cursive;
+   border: 1px dotted;
+}
+
+.space,a img{
+   margin-top: 2em;
+   width:35%;
+}
+
+#para{
+   margin-top: 2em;
+   color: black;
+   font-size: 12px;
+}
+
+#choose{
+   margin-top: 2em;
+   text-align:center;
+}
+
+#links{
+   text-align: center;
+   margin-bottom:2em;
+}
+
+h3{
+   font-family: 'Bangers', cursive;
+
+}
+
+.sites{
    text-align: center;
 }
 
-.container {
+footer{
+   text-align: center;
+   background-color: #f4f4f4;
+   position:absolute;
    width:100%;
-   min-width: 920px;
-}
-
-.container img{
-
-   width:20%;
-
+   display: block;
 }
